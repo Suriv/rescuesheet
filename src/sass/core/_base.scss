@@ -1,12 +1,19 @@
 @charset "UTF-8";
 html{
+	-ms-text-size-adjust: 100%;
+ 	-webkit-text-size-adjust: 100%;
+ 	-moz-text-size-adjust: 100%;
 	font-size:x-small;
 }
 
+
 body{
-		padding:0;
-		font-family: 'Arial';
-    width:$hundred;
+
+    font-family: 'Arial';
+    position:relative;
+    overflow-y:visible;
+    padding:0;
+    margin:0;
 }
 
 a, a:hover{
@@ -25,5 +32,5 @@ h2{
   color:$std-black1;
   text-align:center;
   padding:1rem 0;
-  margin:0 0 1rem 0;
+  margin:0 0 0 0;
 }

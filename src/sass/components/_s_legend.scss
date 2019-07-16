@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .legend {
   display:block;
-  width:50%;
+  width:90%;
+  padding:44rem 0 0 0;
   margin:0 auto;
 
   ul {
@@ -9,6 +10,7 @@
     overflow:hidden;
     display: flex;
     flex-wrap: wrap;
+
     li{
       list-style:none;
       cursor: pointer;
@@ -48,7 +50,22 @@
 
   }
   @media (map-get($rd-types, sm)){
-    width:40rem;
+
+    padding:0;
+    ul{
+      width: 91%;
+      margin: 0 auto;
+    }
+  }
+  @media (map-get($rd-types, md)){
+    width:40%;
+    ul{
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  @media (map-get($rd-types, lg)){
+    width:44rem;
   }
 }
 

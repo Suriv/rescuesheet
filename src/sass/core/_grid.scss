@@ -1,6 +1,6 @@
 @charset "UTF-8";
 article{
-    width:$content-width;
+    width:100%;
     background:$std-secondary;
     margin:1rem auto;
     display:block;
@@ -9,8 +9,15 @@ article{
 section {
     padding:0.5rem;
 }
-@media (map-get($rd-types, sm)){
+@media (map-get($rd-types, md)){
   article{
     display:flex;
+  }
+}
+
+@media (map-get($rd-types, lg)){
+  article{
+    width:$content-width;
+
   }
 }

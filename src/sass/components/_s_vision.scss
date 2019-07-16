@@ -1,23 +1,36 @@
 @charset "UTF-8";
 .vision{
-  overflow: hidden;
+
   text-align:center;
-  height:20rem;
   padding:0;
-  width: calc(100% - 10rem);
+  top:10rem;
+  width: 100%;
+  height: 35rem;
   background:$std-white;
-  background:blue;
-  position:relative;
   margin:0 auto;
+  position:fixed;
+  div{
+    padding:1rem;
+  }
   svg{
     width: 100%;
     height: 100%;
   }
+@media (map-get($rd-types, sm)){
+    position: relative;
+    top:0;
+    height:45rem;
+}
+  @media (map-get($rd-types, md)){
 
-  @media (map-get($rd-types, sm)){
-    height:48rem;
+
     padding:1rem;
     overflow:visible;
     width:50rem;
+    svg{
+      width: 100%;
+      height: 100%;
+    }
+
   }
 }

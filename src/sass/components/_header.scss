@@ -2,6 +2,9 @@
 
 header{
   padding:1rem;
+  position:fixed;
+  background:$std-white;
+  top:0;
   h1{
     position:relative;
     padding:0 0 0 6rem;
@@ -16,6 +19,9 @@ header{
       background-size:contain;
 
     }
+  }
+  @media (map-get($rd-types, sm)){
+    position:relative;
   }
 }
 
