@@ -74,6 +74,8 @@ module.exports = grunt => {
             },
             gruntfile: {files: ['Gruntfile.js'], tasks: ['default']},
             sass: { files: ["src/sass/**/*.scss"], tasks: ["sass"] },
+            jsCore: {files: ['src/js/core/**.js'], tasks: ['uglify:srcjs']},
+            jslib: {files: ['src/js/lib/**.js'], tasks: ['uglify:srcjs']},
             libassets: {files: ['src/assets/**/*'], tasks: ['clean:folderAssets','copy:libassets']},
             htmlComponent: {files: ['src/html/**'], tasks: ['copy:htmlComponent']},
         }

@@ -3,7 +3,6 @@
 * @date     06/02/2019
 * @author   iSuriv
 *
-*
 * - Select Part
 */
 
@@ -20,7 +19,7 @@ var car = Snap.load("assets/car/hondaAccord.svg", function (loadedFragment) {
         $('.legend ul li').click(function () {
             var $valImg = $(this).attr('id').substring(1, 5);
             $('[id^=c' + $valImg + '-]').each(function () {
-                $(this).fadeOut(500);
+                $(this).fadeOut(500).fadeIn(500);
             });
         });
     });
