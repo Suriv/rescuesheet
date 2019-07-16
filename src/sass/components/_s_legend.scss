@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .legend {
   display:block;
-  width:40rem;
+  width:50%;
   margin:0 auto;
 
   ul {
@@ -46,6 +46,9 @@
       }
     }
 
+  }
+  @media (map-get($rd-types, sm)){
+    width:40rem;
   }
 }
 

@@ -3,9 +3,14 @@ article{
     width:$content-width;
     background:$std-secondary;
     margin:1rem auto;
-    display:flex;
+    display:block;
 }
 
 section {
     padding:0.5rem;
+}
+@media (map-get($rd-types, sm)){
+  article{
+    display:flex;
+  }
 }
