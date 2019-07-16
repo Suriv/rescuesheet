@@ -1,0 +1,11 @@
+@charset "UTF-8";
+article{
+    width:$content-width;
+    background:$std-secondary;
+    margin:1rem auto;
+    display:flex;
+}
+
+section {
+    padding:0.5rem;
+}

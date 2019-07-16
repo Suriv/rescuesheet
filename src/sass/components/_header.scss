@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header{
+  padding:1rem;
+  h1{
+    position:relative;
+    padding:0 0 0 6rem;
+    &::before{
+      content:'';
+      display:block;
+      position: absolute;
+      left:0;
+      width:5rem;
+      height:5rem;
+      @include svg(rescue_logo, left top);
+      background-size:contain;
+
+    }
+  }
+}
+

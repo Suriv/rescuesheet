@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.vision{
+  height:48rem;
+
+  text-align:center;
+  padding:1rem;
+  background:$std-white;
+  position:relative;
+  width:50rem;
+  margin:0 auto;
+  svg{
+    width:48rem;
+    height:41rem;
+  }
+}
