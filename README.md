@@ -1,2 +1,2 @@
-# rescuesheet
+# Rescuesheet
 Rescue Sheet Viewer
