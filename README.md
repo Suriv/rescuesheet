@@ -1,4 +1,4 @@
-# Rescuesheet
+# Rescue Sheet
 Rescue Sheet Viewer
 
 # Como empezar
