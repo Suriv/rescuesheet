@@ -10,7 +10,7 @@ Instrucciones
 Que necesitamos antes de arrancar
 
 ```
-Necesitamos tener intalado la versión de node v10.15.0 y tener permisos de administrador o superior
+Necesitamos tener intalado la versión de node v10.15.0  o superior
 ```
 
 ### Como instalar
