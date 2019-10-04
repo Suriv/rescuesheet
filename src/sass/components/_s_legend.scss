@@ -46,6 +46,12 @@
         font-size: 1.2rem;
         word-break: break-word;
       }
+
+      @for $i from 1 through 19 {
+        &#l#{$i}{
+          @include svg(l#{$i}, center center);
+        }
+      }
     }
 
   }
@@ -65,16 +71,9 @@
     }
   }
   @media (map-get($rd-types, lg)){
+    height:50rem;
+    overflow: hidden;
+    overflow-y:visible;
     width:44rem;
   }
 }
-
-#l01{@include svg(sprite, 0 center);}
-#l02{@include svg(sprite, -14rem center);}
-#l03{@include svg(sprite, -28rem center);}
-#l04{@include svg(sprite, -42rem center);}
-#l05{@include svg(sprite, -56.3rem center);}
-#l06{@include svg(sprite, -70rem center);}
-#l07{@include svg(sprite, -84.4rem center);}
-#l08{@include svg(sprite, -98rem center);}
-#l09{@include svg(sprite, -112.2rem center);}

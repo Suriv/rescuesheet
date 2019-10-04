@@ -13,6 +13,7 @@ section {
 @media (map-get($rd-types, md)){
   article{
     display:flex;
+    align-items: center;
   }
 }
 
