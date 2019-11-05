@@ -47,19 +47,24 @@ module.exports = grunt => {
             }
           },
           copy: {
-            libassets: {
+            libassets:{
                 files: [{expand: true, cwd: 'src/assets', src: '**/*', dest: '<%= webContent %>/assets'}]
             },
             htmlComponent:{
                files: [{expand: true, cwd: 'src/html', src: '**/*', dest: '<%= webContent %>/'}]
             },
+            json:{
+              files: [{expand: true, cwd: 'src/json', src: '**/*', dest: '<%= webContent %>/json'}]
+           },
           },
           clean: {
             options: {force:true},
             folderJs:{
               src:['<%= webContent %>/js/*']
             },
-
+            folderJson:{
+              src:['<%= webContent %>/json/*']
+            },
             folderAssets:{
               src:['<%= webContent %>/assets/*']
             },
@@ -78,6 +83,7 @@ module.exports = grunt => {
             jslib: {files: ['src/js/lib/**.js'], tasks: ['uglify:srcjs']},
             libassets: {files: ['src/assets/**/*'], tasks: ['clean:folderAssets','copy:libassets']},
             htmlComponent: {files: ['src/html/**'], tasks: ['copy:htmlComponent']},
+            jsonFolder: {files: ['src/json/**'], tasks: ['copy:json']},
         }
     });
 

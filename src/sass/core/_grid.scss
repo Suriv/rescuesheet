@@ -20,6 +20,10 @@ section {
 @media (map-get($rd-types, lg)){
   article{
     width:$content-width;
-
-  }
+ }
+}
+@media (map-get($rd-types, xl)){
+  article{
+    width:129rem;
+ }
 }

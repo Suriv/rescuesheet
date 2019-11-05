@@ -71,9 +71,15 @@
     }
   }
   @media (map-get($rd-types, lg)){
-    height:50rem;
+    height:auto;
+    max-height:50rem;
     overflow: hidden;
     overflow-y:visible;
     width:44rem;
+  }
+  @media (map-get($rd-types, xl)){
+    max-height:65rem;
+    width: 58rem;
+    margin: 0;
   }
 }
