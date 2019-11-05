@@ -47,7 +47,7 @@
         word-break: break-word;
       }
 
-      @for $i from 1 through 19 {
+      @for $i from 1 through 18 {
         &#l#{$i}{
           @include svg(l#{$i}, center center);
         }

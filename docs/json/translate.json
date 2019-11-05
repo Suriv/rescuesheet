@@ -2,56 +2,56 @@
   "l1": [
     {
       "es":"Airbag",
-      "de":"Alemán",
-      "en":"Inglés"
+      "de":"Airbag",
+      "en":"Airbag"
     }
   ],
   "l2": [
     {
-      "es":"Airbag",
-      "de":"Alemán",
+      "es":"Refuerzos estructurales",
+      "de":"Karosserieverstärkung",
       "en":"Inglés"
     }
   ],
   "l3": [
     {
-      "es":"Airbag",
-      "de":"Alemán",
+      "es":"Unidad de control",
+      "de":"Steuergerät",
       "en":"Inglés"
     }
   ],
   "l4": [
     {
-      "es":"Airbag",
-      "de":"Alemán",
-      "en":"Inglés"
+      "es":"Generador de gas",
+      "de":"Gas generator",
+      "en":"Gas generator"
     }
   ],
   "l5": [
     {
-      "es":"Airbag",
-      "de":"Alemán",
+      "es":"Tensor del cinturón de seguridad",
+      "de":"Gasdruckdämpfer",
       "en":"Inglés"
     }
   ],
   "l6": [
     {
-      "es":"Airbag",
-      "de":"Alemán",
+      "es":"Batería 12V",
+      "de":"12 Volt-Batterie",
       "en":"Inglés"
     }
   ],
   "l7": [
     {
-      "es":"Airbag",
-      "de":"Alemán",
+      "es":"Déposito de combustible",
+      "de":"Gurtstraffer",
       "en":"Inglés"
     }
   ],
   "l8": [
     {
-      "es":"Airbag",
-      "de":"Alemán",
+      "es":"Pretensores",
+      "de":"Kraftstofftank",
       "en":"Inglés"
     }
   ],
