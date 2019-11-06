@@ -5,7 +5,7 @@
   "author": "iSuriv",
   "repository": {
     "type": "git",
-    "url": "https://iSuriv@bitbucket.org/iSuriv/sheet.git"
+    "url": "https://github.com/Suriv/rescuesheet.git"
   },
   "devDependencies": {
     "grunt": "1.0.4",
