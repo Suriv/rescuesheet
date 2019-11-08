@@ -10,7 +10,7 @@ Instrucciones
 Que necesitamos antes de arrancar
 
 ```
-Necesitamos tener intalado la versión de node v10.15.0  o superior
+Necesitamos tener intalado la versión de node v12.13.0  o superior
 ```
 
 ### Como instalar
@@ -23,7 +23,7 @@ npm install
 
 #### Para Front
 
-Cuando lo tengamos todo preparado debemos ejecutar 
+Cuando lo tengamos todo preparado debemos ejecutar
 
 ```
 grunt monitor
