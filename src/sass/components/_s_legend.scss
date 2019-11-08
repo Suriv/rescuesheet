@@ -5,6 +5,7 @@
   padding:44rem 0 0 0;
   margin:0 auto;
 
+
   ul {
     list-style:none;
     overflow:hidden;
@@ -65,6 +66,12 @@
   }
   @media (map-get($rd-types, md)){
     width:40%;
+    &.full{
+      width:90%;
+      margin:0 auto;
+      height:auto;
+      max-height:auto;
+    }
     ul{
       width: 90%;
       margin: 0 auto;

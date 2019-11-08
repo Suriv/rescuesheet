@@ -3,50 +3,48 @@
 * @author   iSuriv
 *
 * - Select Legend
+* - Translate legend
+* - loadSvg
 * - Select Legend
 */
 
 
 (function ($) {
     'use strict';
-    loadElement();
-    selectParts();
-
+   // loadElement('h_accord');
 }(jQuery));
 
 
 // Load json
 
-function loadElement(){
-  var url ='../../json/h_accord.json';
+function loadElement(nbcar){
+  var url ='../../json/'+nbcar+'.json';
   $.getJSON(url, function(data){
     $('.vision h2').text(data.name)
     $('.vision h3').text(data.type)
-    loadSvg(data.url);
+    if (nbcar != "legend"){
+      loadSvg(data.url);
+    }
+
     var leg = data.legend;
     $.each (leg, function(i,val){
       $('.legend ul').append('<li id="'+val+'"></li>');
     })
 
   });
-
+  translateLegend();
+  selectParts();
 }
 
 // Translate legend
 
 function translateLegend(){
   var url ='../../json/translate.json';
-
   $.getJSON(url, function(data2){
-
     var elemenID = data2;
-
-    // $.each (elemenID, function(i,val){
-    //   $('.legend ul li #'+i+'').attr('data-title', '222');
-    // })
-
-
-    // console.log('datao '+ data2.l3[0].es);
+    $.each (elemenID, function(i,val){
+      $('.legend ul').find('#'+i+'').attr('data-title',''+val[0].es+'');
+    })
   });
 }
 
