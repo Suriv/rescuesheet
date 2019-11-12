@@ -11,14 +11,17 @@
 
 (function ($) {
     'use strict';
-   // loadElement('h_accord');
 }(jQuery));
 
 
 // Load json
 
-function loadElement(nbcar){
-  var url ='../../json/'+nbcar+'.json';
+function loadElement(){
+
+ var searchParams = new URLSearchParams(window.location.search),
+     nbcar = searchParams.get('car'),
+     url ='../../json/'+nbcar+'.json';
+
   $.getJSON(url, function(data){
     $('.vision h2').text(data.name)
     $('.vision h3').text(data.type)

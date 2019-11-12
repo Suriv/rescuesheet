@@ -22,14 +22,14 @@
   ],
   "l4": [
     {
-      "es":"Generador de gas",
+      "es":"Inflador de gas ",
       "de":"Gas generator",
       "en":"Gas generator"
     }
   ],
   "l5": [
     {
-      "es":"Tensor del cinturón de seguridad",
+      "es":"Cilindro de gas",
       "de":"Gasdruckdämpfer",
       "en":"Inglés"
     }
@@ -43,14 +43,14 @@
   ],
   "l7": [
     {
-      "es":"Déposito de combustible",
+      "es":"Pretensores de los cinturones de seguridad",
       "de":"Gurtstraffer",
       "en":"Inglés"
     }
   ],
   "l8": [
     {
-      "es":"Pretensores",
+      "es":"Déposito de combustible",
       "de":"Kraftstofftank",
       "en":"Inglés"
     }
@@ -64,14 +64,14 @@
   ],
   "l10": [
     {
-      "es":"Airbag",
+      "es":"Punto de desconexión del Alto Voltaje",
       "de":"Alemán",
       "en":"Inglés"
     }
   ],
   "l11": [
     {
-      "es":"Airbag",
+      "es":"Cable de Alto Voltaje ",
       "de":"Alemán",
       "en":"Inglés"
     }
@@ -92,35 +92,35 @@
   ],
   "l14": [
     {
-      "es":"Airbag",
+      "es":"Depósito de gas (NGT/LPG) ",
       "de":"Alemán",
       "en":"Inglés"
     }
   ],
   "l15": [
     {
-      "es":"Airbag",
+      "es":"Protección antivuelco activa ",
       "de":"Alemán",
       "en":"Inglés"
     }
   ],
   "l16": [
     {
-      "es":"Airbag",
+      "es":"Válvula de seguridad (NGT/LPG)",
       "de":"Alemán",
       "en":"Inglés"
     }
   ],
   "l17": [
     {
-      "es":"Airbag",
+      "es":"Batería de Alto Voltaje",
       "de":"Alemán",
       "en":"Inglés"
     }
   ],
   "l18": [
     {
-      "es":"Airbag",
+      "es":"Sensor mecánico",
       "de":"Alemán",
       "en":"Inglés"
     }
