@@ -1,0 +1,9 @@
+### Project specific config ###
+language: node_js
+sudo: false
+node_js:
+  - "14.17.0"
+install:
+  - npm install
+script:
+  - npm run build
