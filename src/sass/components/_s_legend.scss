@@ -5,7 +5,6 @@
   padding:44rem 0 0 0;
   margin:0 auto;
 
-
   ul {
     list-style:none;
     overflow:hidden;
@@ -28,9 +27,9 @@
           display:none;
         }
       }
-      &[data-title] {
-        position: relative;
-        cursor: help;
+     &[data-title] {
+       position: relative;
+       cursor: help;
       }
 
       &[data-title]:hover::before {

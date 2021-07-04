@@ -11,6 +11,7 @@
 
 (function ($) {
     'use strict';
+
 }(jQuery));
 
 
@@ -63,13 +64,10 @@ function loadSvg(url){
 }
 
 
-
-
-
 // Select Legend
 
 function selectParts(){
-  $('.legend ul li').click(function () {
+  $('.legend').on('click','ul li' ,function () {
       var $valImg = $(this).attr('id').substring(1, 5);
       $('[id^=c' + $valImg + '-]').each(function () {
           $(this).fadeOut(500).fadeIn(500);
